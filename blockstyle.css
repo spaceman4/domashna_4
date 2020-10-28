@@ -6,7 +6,7 @@
     position: absolute;
     width: 15rem;
     height: 10rem;
-    background-color: red;
+    background-color: #2a3d66;
     z-index: 5;
     border-radius: 1rem;
 }
@@ -15,7 +15,7 @@
     position: absolute;
     width: 15rem;
     height: 10rem;
-    background-color: blue;
+    background-color: #5d54a4;
     z-index: 4;
     left: 2rem;
     top: 2rem;
@@ -26,7 +26,7 @@
     position: absolute;
     width: 15rem;
     height: 10rem;
-    background-color: green;
+    background-color: #9d65c9;
     z-index: 3;
     left: 4rem;
     top: 4rem;
@@ -37,7 +37,7 @@
     position: absolute;
     width: 15rem;
     height: 10rem;
-    background-color: yellow;
+    background-color: #d789d7;
     z-index: 2;
     left: 6rem;
     top: 6rem;
@@ -48,7 +48,7 @@
     position: absolute;
     width: 15rem;
     height: 10rem;
-    background-color: purple;
+    background-color: #d3a6d3;
     z-index: 1;
     left: 8rem;
     top: 8rem;
@@ -56,26 +56,26 @@
 }
 
 #block1:hover {
-    background-color: orangered;
+    background-color: #484c7f;
 }
 
 #block2:hover {
-    background-color: blueviolet;
+    background-color: #ac8daf;
     z-index: 5;
 }
 
 #block3:hover {
-    background-color: greenyellow;
+    background-color: #ddb6c6;
     z-index: 5;
 }
 
 #block4:hover {
-    background-color: yellowgreen;
+    background-color: #f1d4d4;
     z-index: 5;
 }
 
 #block5:hover {
-    background-color: magenta;
+    background-color: #f0bff0;
     z-index: 5;
 }
 
@@ -84,7 +84,7 @@
     border: none;
     width: 10rem;
     height: 10rem;
-    opacity: 0.1;
+    opacity: 0.15;
     filter: alpha(opacity=90)
   }
   
@@ -100,6 +100,7 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+   
 }
   
 .dropdown-content a {
@@ -111,9 +112,7 @@
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown-content a:hover {background-color:skyblue;}
 
 #menu1 {
     position: absolute;
@@ -134,15 +133,25 @@
     position: absolute;
     z-index: 1;
     top: 3rem;
-    background-color: slategray;
+    background-color: slategrey;
     width: 15rem;
     border-radius: 0.5rem;
 }
 
 #menu2:hover {
     z-index: 3;
+    border-radius: inherit;
+    
 }
 
 #menu3:hover {
     z-index: 3;
+    border-radius: inherit;
+    
 }
+
+#menu1:hover {
+    border-radius: inherit;
+    
+}
+
